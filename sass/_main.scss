@@ -100,7 +100,7 @@ main {
             .result-copy {
                display: grid;
 
-               button{
+               button {
                   align-self: flex-end;
                }
 
@@ -255,7 +255,7 @@ main {
          .short-results {
             grid-template-columns: 1fr 1fr;
 
-            .short-result{
+            .short-result {
                justify-content: flex-end;
             }
          }
@@ -274,43 +274,51 @@ main {
 @media (min-width:$breakpoint-md) {
    main {
 
-      .short-container {
+      .container {
+         padding-bottom: 6rem;
 
-         .short-results {
-            grid-template-columns: 1fr;
+         .product-title{
+            padding-bottom: 4rem;
+         }
 
-            .short-result {
-               flex-direction: row;
-               justify-content: space-between;
-               align-items: center;
+         .short-container {
 
-               hr {
-                  display: none;
-               }
+            .short-results {
+               grid-template-columns: 1fr;
 
-               button {
-                  width: 2rem;
-               }
-
-               .result-copy {
-                  display: flex;
-                  gap: 2rem;
+               .short-result {
+                  flex-direction: row;
+                  justify-content: space-between;
                   align-items: center;
 
+                  hr {
+                     display: none;
+                  }
 
-                  .copy-btn {
-                     width: 7rem;
-                     margin-top: 0;
+                  button {
+                     width: 2rem;
+                  }
+
+                  .result-copy {
+                     display: flex;
+                     gap: 2rem;
+                     align-items: center;
+
+
+                     .copy-btn {
+                        width: 7rem;
+                        margin-top: 0;
+                     }
                   }
                }
             }
          }
-      }
 
-      .product-get-started {
+         .product-get-started {
 
-         h2 {
-            font-size: 3rem;
+            h2 {
+               font-size: 3rem;
+            }
          }
       }
    }

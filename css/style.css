@@ -465,30 +465,36 @@ main .product-get-started a:hover {
   }
 }
 @media (min-width: 1024px) {
-  main .short-container .short-results {
+  main .container {
+    padding-bottom: 6rem;
+  }
+  main .container .product-title {
+    padding-bottom: 4rem;
+  }
+  main .container .short-container .short-results {
     grid-template-columns: 1fr;
   }
-  main .short-container .short-results .short-result {
+  main .container .short-container .short-results .short-result {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
-  main .short-container .short-results .short-result hr {
+  main .container .short-container .short-results .short-result hr {
     display: none;
   }
-  main .short-container .short-results .short-result button {
+  main .container .short-container .short-results .short-result button {
     width: 2rem;
   }
-  main .short-container .short-results .short-result .result-copy {
+  main .container .short-container .short-results .short-result .result-copy {
     display: flex;
     gap: 2rem;
     align-items: center;
   }
-  main .short-container .short-results .short-result .result-copy .copy-btn {
+  main .container .short-container .short-results .short-result .result-copy .copy-btn {
     width: 7rem;
     margin-top: 0;
   }
-  main .product-get-started h2 {
+  main .container .product-get-started h2 {
     font-size: 3rem;
   }
 }
