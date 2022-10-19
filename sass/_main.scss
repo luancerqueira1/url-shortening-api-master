@@ -26,6 +26,7 @@ main {
          margin: 0 auto;
 
          input {
+            width: 100%;
             padding: .5rem;
             border: 2px solid transparent;
          }
@@ -52,6 +53,7 @@ main {
 
       input,
       button {
+         width: 100%;
          padding: .7rem 0;
          border-radius: .5rem;
          border: none;

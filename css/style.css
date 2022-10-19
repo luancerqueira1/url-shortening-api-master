@@ -268,6 +268,7 @@ main .short-container .form-container {
   margin: 0 auto;
 }
 main .short-container .form-container input {
+  width: 100%;
   padding: 0.5rem;
   border: 2px solid transparent;
 }
@@ -289,6 +290,7 @@ main .short-container .form-container .show-error {
 }
 main .short-container input,
 main .short-container button {
+  width: 100%;
   padding: 0.7rem 0;
   border-radius: 0.5rem;
   border: none;
